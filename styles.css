@@ -40,10 +40,15 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+
 /* Container */
 
 .container {
-    height: 94.5vh;
+    height: 94.8vh;
     background-color: #F1f5f8;
     align-content: center;  
     justify-items: center;    
@@ -62,4 +67,9 @@ h2 {
     border: 2px solid black;
     border-radius: 10px;
     font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #68baff;
+    transition: 0.2s;
 }
